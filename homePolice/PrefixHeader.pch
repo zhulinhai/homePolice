@@ -1,0 +1,57 @@
+//
+//  PrefixHeader.pch
+//  HomePolice
+//
+//  Created by zhulh on 15-1-8.
+//  Copyright (c) 2015年 ___ HomePolice___. All rights reserved.
+//
+
+#ifndef HomePolice_PrefixHeader_pch
+#define HomePolice_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "ProtocolDefine.h"
+#import "HttpParserManager.h"
+#import "NSString+WebPageParser.h"
+#import "UIColor+Tools.h"
+#import "NSString+AutoSize.h"
+#import "MKNetworkEngine.h"
+#import "FieldValidate.h"
+#import "UserController.h"
+#import "UMengViewController.h"
+#import "UMengTableViewController.h"
+#import "MsgDefine.h"
+#import "NSDictionary+SafeValue.h"
+#import "UIImageView+WebCache.h"
+#import "DeviceListManager.h"
+#import "PictureManager.h"
+#import "ProgressHUD.h"
+#endif
+
+#define kAnimationInterval  0.3
+
+#define kShowStripViewControllerIdentifer   @"showStripViewControllerIdentifer"
+#define kShowAddStripTableViewControllerIdentifer   @"showAddStripTableViewControllerIdentifer"
+#define kShowChooseCollectionViewControllerIdentifer @"showChooseCollectionViewControllerIdentifer"
+#define kShowAddDeviceViewControllerIdentifer       @"showAddDeviceViewControllerIdentifer"
+#define kShowLoginViewControllerIdentifer   @"showLoginViewControllerIdentifer"
+#define kShowScanViewControllerIdentifer    @"showScanViewControllerIdentifer"
+#define kShowMenuTabbarControllerIdentifer  @"showMenuTabbarControllerIdentifer"
+#define kVideoChannelTableViewCellIdentifer         @"VideoChannelTableViewCellIdentifer"
+#define kMenuItemTableViewCellIdentifer     @"MenuItemTableViewCellIdentifer"
+#define kLoginTableViewCellIdentifer        @"LoginTableViewCellIdentifer"
+#define kShowSearchDeviceViewControllerIdentifer    @"showSearchDeviceViewControllerIdentifer"
+#define kShowVideoViewControllerIdentifer   @"showVideoViewControllerIdentifer"
+#define kShowDeviceInfoTableViewControllerIdentifer     @"showDeviceInfoTableViewControllerIdentifer"
+#define kShowPictureManageViewIdentifer     @"showPictureManageViewIdentifer"
+#define kShowImageDetailViewIdentifer       @"showImageDetailViewIdentifer"
+#define kShowShareTipViewIdentifer          @"showShareTipViewIdentifer"
+#define kShowAboutUsViewIdentifer           @"showAboutUsViewIdentifer"
+#define kShowRecordListTableViewIdentifer   @"showRecordListTableViewIdentifer"
+#define kShowPlayBackViewIdentifer          @"showPlayBackViewIdentifer"
+
+#endif
